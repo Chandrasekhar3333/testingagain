@@ -14,7 +14,7 @@ public class StudentController {
 	@GetMapping(value = { "/", "/register" })
 	public String loadForm(Model model) {
 
-		// Sending form binding object to UI
+		//// Sending form binding object to UI
 		Student s = new Student();
 		model.addAttribute("student", s);
 
